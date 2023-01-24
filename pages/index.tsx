@@ -1,6 +1,7 @@
-import Head from "next/head";
-import React, { useState } from "react";
 import styles from "../styles/Home.module.scss";
+import React, { useState } from "react";
+import Head from "next/head";
+import Link from "next/link";
 
 const Home = () => {
   const [likes, setLikes] = useState(0);
@@ -21,9 +22,7 @@ const Home = () => {
           Welcome to my <a href="https://nextjs.org">Next.js</a> app!
         </h1>
 
-        <p className={styles.description}>
-          Work in progress! Stay tuned.
-        </p>
+        <p className={styles.description}>Work in progress! Stay tuned.</p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -54,6 +53,9 @@ const Home = () => {
             </p>
           </a>
         </div>
+        <h2>
+          Read <Link href="/posts/first-post">this page!</Link>
+        </h2>
         <button onClick={handleClick}>Like ({likes})</button>
       </main>
 
@@ -63,7 +65,11 @@ const Home = () => {
           target="_blank"
         >
           Powered by{" "}
-          <img src="/bloodsucker.png" alt="albicallegari" className={styles.logo} />
+          <img
+            src="/bloodsucker.png"
+            alt="albicallegari"
+            className={styles.logo}
+          />
         </a>
       </footer>
 
