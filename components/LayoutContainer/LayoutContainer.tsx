@@ -27,6 +27,16 @@ const LayoutContainer = ({ children, home }: LayoutContainerProps) => {
         />
         <meta name="og:title" content={appName} />
       </Head>
+      {/* 
+      If you need to import scripts asap
+      <Script
+        src="https://connect.facebook.net/en_US/sdk.js"
+        strategy="lazyOnload"
+        onLoad={() =>
+          console.log(`script loaded correctly, window.FB has been populated`)
+        }
+      /> 
+      */}
       {/** Add HEAD section */}
       <header className={styles.header}>
         {home ? (
