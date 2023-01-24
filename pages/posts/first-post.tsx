@@ -24,7 +24,7 @@ const FirstPost = ({ allPostsData }) => {
   return (
     <LayoutContainer>
       <Head>
-        <title>First Post</title>
+        <title>Blog</title>
       </Head>
       <section
         className={`${commonStyles.headingMd} ${commonStyles.padding1px}`}
