@@ -5,7 +5,7 @@ Build a Single page application using Next.js and Tailwind, deploying it on Verc
 This project was bootstrapped with [Create next App](https://nextjs.org/learn/basics/create-nextjs-app/setup).
 ### `npx create-next-app nextjs-blog`
 
-SWR
+## SWR
 The team behind Next.js has created a React hook for data fetching called [SWR](https://swr.vercel.app/). We highly recommend it if you’re fetching data on the client side. It handles caching, revalidation, focus tracking, refetching on interval, and more. We won’t cover the details here, but here’s an example usage:
 ```
 import useSWR from 'swr';
