@@ -1,3 +1,5 @@
+// Global styles imported in every pages throught _app.tsx wrapper
+
 html,
 body {
   padding: 0;
@@ -7,7 +9,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #0070f3;
   text-decoration: none;
 }
 
