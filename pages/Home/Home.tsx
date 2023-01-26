@@ -16,7 +16,8 @@ const Home = () => {
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">Next.js tutorial</a>.)
         </p>
-        <p>Visit my <Link href="/Posts/First-post">Blog</Link></p>
+        <p>Visit my <Link href="/Posts/pre-rendering">First Post</Link></p>
+        <p>Visit my <Link href="/Posts/ssg-ssr">Second Post</Link></p>
         <p>Work in progress! Stay tuned.</p>
       </section>
     </LayoutContainer>
