@@ -24,11 +24,10 @@ const Home = () => {
           Visit my test <Link href="/Posts/ssg-ssr">Second Post</Link>
         </p>
         <span>
-          {`Check out also my ${(
-            <a href="https://albicallegari.github.io/react-portfolio">
-              React portfolio
-            </a>
-          )}`}
+          {`Check out also my `}
+          <a href="https://albicallegari.github.io/react-portfolio">
+            React portfolio
+          </a>
         </span>
         <p>Work in progress! Stay tuned.</p>
       </section>
