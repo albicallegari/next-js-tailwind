@@ -3,22 +3,19 @@ import LayoutContainer, {
   appName,
 } from "components/LayoutContainer/LayoutContainer";
 import commonStyles from "../../styles/common.module.scss";
-import Date from "components/Date/Date";
+import { getTranslatedLabel } from "../../common/labels/utils";
 import Head from "next/head";
 import Link from "next/link";
 
 const Home = () => {
+
   return (
     <LayoutContainer home>
       <Head>
         <title>{appName}</title>
       </Head>
       <section className={commonStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">Next.js tutorial</a>.)
-        </p>
+        <p className={commonStyles.description}>{getTranslatedLabel('global.aboutMe')}</p>
         <p>
           Visit my <Link href="/Posts/pre-rendering">First Post</Link>
         </p>
