@@ -1,5 +1,5 @@
 // Component wrapper used for global styles
-import '../styles/index.scss';
+import '../styles/global.scss';
 
 const ComponentWrapper = ({ Component, pageProps }) => {
     return <Component {...pageProps} />
