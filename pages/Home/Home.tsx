@@ -18,10 +18,12 @@ const Home = () => {
           {getTranslatedLabel("global.aboutMe")}
         </p>
         <p>
-          Visit my test <Link href="/Posts/pre-rendering">First Post</Link>
+          What is SSR and SSG? Check out this{" "}
+          <Link href="/Posts/pre-rendering">post</Link>
         </p>
         <p>
-          Visit my test <Link href="/Posts/ssg-ssr">Second Post</Link>
+          When to use SSR or SSG? Check out this{" "}
+          <Link href="/Posts/ssg-ssr">post</Link>
         </p>
         <span>
           {`Check out also my `}
@@ -29,7 +31,7 @@ const Home = () => {
             React portfolio
           </a>
         </span>
-        <p>Work in progress! Stay tuned.</p>
+        <p>{getTranslatedLabel("global.wip")}</p>
       </section>
     </LayoutContainer>
   );

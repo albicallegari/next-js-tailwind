@@ -1,3 +1,4 @@
+// SSG Example component
 import LayoutContainer from "components/LayoutContainer/LayoutContainer";
 import commonStyles from "../../styles/common.module.scss";
 import { getAllPostIds, getPostData } from "lib/getFSData";
@@ -38,5 +39,6 @@ export const getStaticProps = async ({ params }) => {
     props: {
       postData,
     },
+    revalidate: 3600, // ISR (Incremental site render) let invalid cache for re-render page on background 
   };
 }
