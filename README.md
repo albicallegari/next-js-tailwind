@@ -25,7 +25,7 @@ Next.js provides you:
 Kind of pre-rendering where pages are generated on Build time
 ## SSR - Server side rendering
 Kind of pre-rendering where pages are generated on each request
-# SSR or SSG?
+## SSR or SSG?
 Next.js allows you to decide which pre-rendering mode to use for each page of the application.
 You can then create a hybrid webapp that uses SSG for some pages and SSR for others.
 It is best to use SSG whenever possible for performance reasons. But how can I know when to use SSG or SSR? You should ask yourself "Is it a problem if I present the user with a pre-rendered page at build time?".
