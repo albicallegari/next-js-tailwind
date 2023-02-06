@@ -1,6 +1,6 @@
 ---
 title: 'Two Forms of Pre-rendering'
-date: '2020-01-01'
+date: '2023-02-01'
 ---
 
 What's NextJS ? It's a freamwork for a fullstack React web app.
